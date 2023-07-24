@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 
 
 st.title("EIE 2025 - Sem 4 Results")
@@ -34,7 +33,6 @@ res = form.multiselect("Select Result :",
 
 submit = form.form_submit_button("Apply")
 
-print(reg, sub, res)
 
 if submit:
     if select_all_reg:
